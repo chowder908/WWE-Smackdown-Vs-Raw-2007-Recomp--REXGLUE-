@@ -1,0 +1,13 @@
+project_name = "svr2007"
+file_path = "assets/default.xex"
+out_directory_path = "generated"
+
+[codegen]
+functions_per_file = 100
+
+[functions]
+0x824625F0 = { name = "fn_824625F0_manual" }
+0x82462A00 = { name = "fn_82462A00_manual" }
+0x825C50A8 = { name = "fn_825C50A8_manual" }
+0x825E7B78 = { name = "fn_825E7B78_manual" }
+0x825D0840 = { name = "fn_825D0840_manual" }
