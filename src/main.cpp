@@ -1,11 +1,7 @@
+// wwesmackdownvsraw2007 - ReXGlue Recompiled Project
 
-// svr2007 - ReXGlue Recompiled Project
-//
-// This file is yours to edit. 'rexglue migrate' will NOT overwrite it.
+#include "generated/default/wwesmackdownvsraw2007_init.h"
 
-#include "generated/svr2007_config.h"
-#include "generated/svr2007_init.h"
+#include "wwesmackdownvsraw2007_app.h"
 
-#include "svr2007_app.h"
-
-REX_DEFINE_APP(svr2007, Svr2007App::Create)
+REX_DEFINE_APP(wwesmackdownvsraw2007, Wwesmackdownvsraw2007App::Create)
