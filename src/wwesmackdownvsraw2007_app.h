@@ -16,6 +16,11 @@ class Wwesmackdownvsraw2007App : public rex::ReXApp {
         PPCImageConfig));
   }
 
+void OnConfigurePaths(rex::PathConfig& paths) override {
+    std::filesystem::path exe_dir = std::filesystem::current_path();
+    paths.game_data_root = exe_dir / "assets";
+  }
+
   // Override virtual hooks for customization:
   // void OnPostInitLogging() override {}
   // void OnPreSetup(rex::RuntimeConfig& config) override {}
