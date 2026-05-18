@@ -1,5 +1,0 @@
-#pragma once
-
-#define RECOMP_PROJECT_NAME "svr2007"
-#define RECOMP_EXECUTABLE_NAME "svr2007"
-#define RECOMP_BASE_ADDRESS 0x82000000

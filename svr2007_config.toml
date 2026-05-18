@@ -9,13 +9,13 @@ file_path = "./assets/default.xex"
 out_directory_path = "generated/"
 
 [entrypoint.functions]
-0x825D0840 = { name = "fn_825D0840" }
-0x825C50A8 = { name = "fn_825C50A8" }
-0x824625F0 = { name = "fn_824625F0" }
-0x82462A00 = { name = "fn_82462A00" }
-0x825E7B78 = { name = "fn_825E7B78" }
-0x825C1380 = { name = "fn_825C1380" }
-0x8242C948 = { name = "fn_8242C948" }
-0x8242CB20 = { name = "fn_8242CB20" }
-0x82471250 = { name = "fn_82471250" }
-0x822EDBA0 = { name = "fn_822EDBA0" }
+0x825D0840 = { name = "UndefinedFunction_825d0840" }
+0x825C50A8 = { name = "UndefinedFunction_825C50A8" }
+0x824625F0 = { name = "UndefinedFunction_824625F0" }
+0x82462A00 = { name = "UndefinedFunction_82462A00" }
+0x825E7B78 = { name = "UndefinedFunction_825E7B78" }
+0x825C1380 = { name = "UndefinedFunction_825c1380" }
+0x8242C948 = { name = "UndefinedFunction_8242c948" }
+0x8242CB20 = { name = "UndefinedFunction_8242CB20" }
+0x82471250 = { name = "UndefinedFunction_82471250" }
+0x822EDBA0 = { name = "UndefinedFunction_822EDBA0" }
