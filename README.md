@@ -6,6 +6,7 @@ Source your own WWE SmackDown Vs RAW 2007 (Xbox 360) files and place them all in
 
 
 Linux Build Commands
+
 cmake --preset linux-amd64-relwithdebinfo \
   -DCMAKE_C_COMPILER=clang-19 \
   -DCMAKE_CXX_COMPILER=clang++-19 \
@@ -15,6 +16,7 @@ cmake --preset linux-amd64-relwithdebinfo \
 cmake --build --preset linux-amd64-relwithdebinfo
 
 Windows Build Commands
+
 cmake -S . -B build -G "Ninja" ^
   -DCMAKE_CXX_COMPILER=clang-cl ^
   -DCMAKE_C_COMPILER=clang-cl ^
