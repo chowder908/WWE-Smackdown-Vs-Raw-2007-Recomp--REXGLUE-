@@ -24,6 +24,5 @@ cmake -S . -B build -G "Ninja"
   -DCMAKE_C_FLAGS="-target x86_64-pc-windows-msvc -w -mssse3 /Zc:char8_t-" 
   -DCMAKE_BUILD_TYPE=Release 
   -DREXSDK_DIR=(rexglue-sdk Location)
-  -DCMAKE_PREFIX_PATH="(rexglue-sdk location)"
 cmake --build build --config Release
 
